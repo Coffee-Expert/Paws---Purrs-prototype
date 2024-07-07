@@ -1,58 +1,3 @@
-/* =================================================================== 
- *
- *  Sublime v1.0 Main Stylesheet
- *  06-10-2018
- *  ------------------------------------------------------------------
- *
- *  TOC:
- *  # base style overrides
- *    ## links
- *  # typography & general theme styles
- *    ## Lists
- *    ## responsive video container
- *    ## floated image
- *    ## tables
- *    ## Spacing 
- *  # preloader
- *  # forms
- *    ## Style Placeholder Text
- *    ## Change Autocomplete styles
- *  # buttons
- *  # additional components
- *    ## alert box
- *    ## additional typo styles
- *    ## skillbars
- *  # reusable and common theme styles
- *    ## display headings
- *    ## section header
- *    ## grid overlay
- *  # header styles
- *    ## header logo
- *    ## main navigation
- *    ## mobile menu toggle 
- *  # home
- *    ## home content
- *    ## home video link
- *    ## home buttons
- *    ## home scroll
- *    ## home social
- *    ## home animations
- *  # about
- *    ## about process
- *  # services  
- *    ## services list
- *  # works
- *    ## bricks/masonry
- *  # clients
- *  # testimonials
- *  # contact
- *    ## contact social
- *  # footer
- *    ## copyright
- *    ## go top
- *
- * =================================================================== */
-
 
 /* ===================================================================
  * # base style overrides
@@ -90,7 +35,7 @@ body {
  * ## links
  * ------------------------------------------------------------------- */
 a {
-  color: #793ea5;
+  color: #f9ebc7;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
@@ -181,6 +126,10 @@ h6, .h6 {
   letter-spacing: .16rem;
 }
 
+p{
+  color: #f1f1f1a3;
+}
+
 p img {
   margin: 0;
 }
@@ -191,7 +140,7 @@ p.lead {
   font-size: 2.4rem;
   line-height: 1.625;
   margin-bottom: 3.6rem;
-  color: rgba(255, 255, 255, 0.2);
+  color: rgba(255, 255, 255, 0.788);
 }
 
 @media only screen and (max-width:1200px) {
@@ -263,7 +212,7 @@ blockquote p {
   padding: 0;
   font-size: 2.1rem;
   line-height: 1.857;
-  color: rgba(255, 255, 255, 0.7);
+  color: rgba(255, 255, 255, 0.86);
 }
 
 blockquote cite {
@@ -398,7 +347,7 @@ ul.disc li::before {
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background: #793ea5;
+  background: #c4661f;
   position: absolute;
   left: -17px;
   top: 11px;
@@ -966,9 +915,9 @@ button.btn--primary,
 input[type="submit"].btn--primary,
 input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
-  background: #793ea5;
+  background: #a2faff;
   border-color: #793ea5;
-  color: #FFFFFF;
+  color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -1165,6 +1114,13 @@ input::-moz-focus-inner {
 .pull-quote {
   position: relative;
   padding: 2.1rem 3rem 2.1rem 0px;
+}
+
+.highlight {
+  background-color: #e6abff;
+  border-radius: 8px;
+  padding: 0 8px;
+  color: #4e00a7;
 }
 
 .pull-quote:before,
@@ -2081,7 +2037,7 @@ body.menu-is-open {
   content: "";
   width: 50%;
   height: 100%;
-  background-color: rgba(0, 0, 0, 0.3);
+  background-color: rgba(0, 0, 0, 0.195);
   opacity: .5;
   z-index: 3;
   position: absolute;
