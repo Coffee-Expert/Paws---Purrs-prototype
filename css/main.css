@@ -1,4 +1,38 @@
 
+/*lenis*/
+html.lenis, html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+.lenis.lenis-smooth iframe {
+  pointer-events: none;
+}
+
+
+/*Selection*/
+::-moz-selection { /* Code for Firefox */
+  color: rgb(197, 112, 250);
+  background: rgb(43, 43, 43);
+}
+
+::selection {
+  color: rgb(197, 112, 250);
+  background: rgb(43, 43, 43);
+}
+
+
 /* ===================================================================
  * # base style overrides
  *
